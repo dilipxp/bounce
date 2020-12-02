@@ -1,0 +1,74 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat+Alternates:400,700);
+div {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+}
+
+p {
+  color: #265687;
+  font-family: "Montserrat Alternates", sans-serif;
+  font-size: 72px;
+  font-weight: 400;
+  letter-spacing: -0.05em;
+  text-align: center;
+  text-shadow: 3px 5px 5px rgba(0, 0, 0, 0.3);
+}
+p em {
+  font-style: normal;
+  display: inline-block;
+}
+p em:nth-child(1) {
+  color: #4285F4;
+}
+p em:nth-child(2) {
+  color: #E94D3D;
+}
+p em:nth-child(3) {
+  color: #F7C945;
+}
+p em:nth-child(4) {
+  color: #4285F4;
+}
+p em:nth-child(5) {
+  color: #34A853;
+}
+p em:nth-child(7) {
+  color: #4285F4;
+}
+p em:nth-child(8) {
+  color: #E94D3D;
+}
+p em:nth-child(9) {
+  color: #F7C945;
+}
+p em:nth-child(10) {
+  color: #4285F4;
+}
+p em:nth-child(11) {
+  color: #34A853;
+}
+p em:nth-child(12) {
+  color: #E94D3D;
+}
+
+
+p em.bounce-me {
+  -webkit-animation: bounce 6s infinite ease-in-out;
+  animation: bounce 6s infinite ease-in-out;
+}
+
+@-webkit-keyframes bounce {
+  60% {
+    -webkit-transform: translate(0px, -200px) scale(1.2);
+    opacity: 0.8;
+    text-shadow: 0px 150px 20px rgba(0, 0, 0, 0.8);
+  }
+}
+@keyframes bounce {
+  60% {
+    -webkit-transform: translate(0px, -50px) ;
+    opacity: 0.8;
+    text-shadow: 0px 100px 20px rgba(0, 0, 0, 0.8);
+  }
+}
